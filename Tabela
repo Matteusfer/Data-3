@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1px"> <!--inicia a tabela-->
+        <THEAD> <!--define a região do cabeçalho-->
+
+            <tr> <!--table row(linha)-->
+                <th colspan=4> <h1>Projetos e eventos para o curso de Programador Web. </h1> </th> <!--célula de cabeçalho-->
+        
+
+            </tr>
+        </THEAD> 
+        <tbody> <!--definir região corpo da tabela-->
+        <tr> 
+            <td><h3>Projeto/Evento</h3></td> <!--célula-->
+            <td><h3>Alunos</h3</td>
+            <td><h3>Parceiros</h3></td>
+            <td><h3>Local</h3></td>
+        </tr>
+        <tr>
+            <td>Projeto Pessoal</td> <!--célula-->
+            <td>Equipe 3 Alunos</td>
+            <td>Convidados que possam orientar ou demandar</td>
+            <td>Senac e no ambiente de trabalho do convidado</td>
+        </tr>
+
+        <tr>
+            <td>Hackathon</td> <!--célula-->
+            <td>Equipe 3 Alunos</td>
+            <td>Convidados que possam demandar um sistema real</td>
+            <td>Senac e no ambiente de trabalho do convidado</td>
+        </tr>
+
+        <tr>
+            <td>Visita a ICETEL</td> <!--célula-->
+            <td>Todos os Alunos</td>
+            <td>Junior</td>
+            <td>ICETEL</td>
+        </tr>
+
+        <tr>
+            <td>Visita a Grendene</td> <!--célula-->
+            <td>Todos os Alunos</td>
+            <td>Tatiane</td>
+            <td>TI Grendene</td>
+        </tr>
+
+        <tr>
+            <td>Roda de conversa e apresentação de projetos</td> <!--célula-->
+            <td>Todos os Alunos</td>
+            <td>Gestores e Profissionais de TI</td>
+            <td>Laboratórios de informática e Auditório do Senac</td>
+        </tr>
+    </tbody>
+
+    </table>
+ 
+</body>
+</html>
