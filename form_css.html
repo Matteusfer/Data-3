@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>CADASTRO</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h2><u>Cadastro de Funcionária</u></h2>
+    <div>
+        <form>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <table>
+                    <tr>
+                        <td class="nome"> Nome:*</td>
+                        <td Colspan="3"><input type="text" placeholder="digite seu nome" required autofocus></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        <td>RG</td>
+                        <td><input type="text" placeholder="digite o numero do RG"></td>
+                        <td>CPF:</td>
+                        <td><input type="text" placeholder="digite o numero do cpf"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone (Whatsapp):</td>
+                        <td><input type="tel" placeholder="digite o número de Telefone"></td>
+                        <td>Telefone 02:</td>
+                        <td><input type="tel" placeholder="digite o número de Telefone"></td>
+                    </tr>
+                    <tr>
+                       <td>Data de Nascimento:</td>
+                       <td><input type="date"></td>
+                       <td>Naturalidade</td>
+                       <td><input type="text" value="Brasileira"></td>
+                    </tr>
+                    <tr>
+                        <td>Escolaridade:</td>
+                        <td>
+                            <select>
+                                <option value="A">Alfabetizada</option>   <option value="F">Fundamental</option>
+                                <option value="MC" selected>Médio Completo</option>
+                                <option value="SC">Superior Incompleto</option>
+                                <option value="SC">Superior Completo</option>
+                            </select>
+                        </td>
+                        <td>
+                            <select>
+                                <option value="solteira">Solteira</option>
+                                <option value="UE">União Estável</option>
+                                <option value="casada">Casada</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Salvar">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>
+</body>
+</html>
